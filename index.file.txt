@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Detailing Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .services {
+            margin-top: 30px;
+        }
+        .service-item {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .service-item h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Car Detailing Services</h1>
+</header>
+
+<div class="container">
+    <section class="services">
+        <div class="service-item">
+            <h3>Basic Wash</h3>
+            <p>Includes exterior wash, window cleaning, and tire shine.</p>
+            <p class="price">$25</p>
+        </div>
+        <div class="service-item">
+            <h3>Interior Detailing</h3>
+            <p>Complete interior vacuum, wipe-down, and deodorizing.</p>
+            <p class="price">$45</p>
+        </div>
+        <div class="service-item">
+            <h3>Full Detailing</h3>
+            <p>Exterior wash, waxing, interior cleaning, and more.</p>
+            <p class="price">$100</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Contact us: (555) 123-4567 | email@example.com</p>
+</footer>
+
+</body>
+</html>
